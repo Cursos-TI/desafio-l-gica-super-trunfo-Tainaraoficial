@@ -21,6 +21,9 @@ int main() {
     float densidade1, densidade2;
     float capita1, capita2;
 
+    // Abertura do jogo:
+    printf("### Seja bem vindo(a) ao jogo Super trunfo! ###\n");
+    printf("_______________________________________________________________\n");
     
     // Cadastro das Cartas:
     // Carta 1:
