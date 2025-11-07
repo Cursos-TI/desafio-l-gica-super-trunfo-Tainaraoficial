@@ -23,8 +23,7 @@ int main() {
     int opcao;
 
     // Abertura do jogo:
-    printf("### Seja bem vindo(a) ao jogo Super trunfo! ###\n");
-    printf("⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊\n");
+    printf("\n===== JOGO SUPER TRUNFO =====\n");
     
     // Cadastro das Cartas:
     // Carta 1:
@@ -90,6 +89,7 @@ int main() {
     capita2 = (pib2 * 1000000000) / populacao2;
 
     // Exibição dos Dados das Cartas:
+    printf("\n ===== EXIBIÇÃO DOS DADOS DAS CARTAS ===== \n");
 
     // Carta 1:
 
@@ -118,8 +118,7 @@ int main() {
     printf("PIB per Capita: %.2f reais\n", capita2);
 
     printf("\n-------------------------------------------------------------\n");
-    printf("### A grande escolha!!! \n###");
-    printf("_______________________________________________________________\n");
+    printf("\n===== COMPARAÇÃO DE CARTAS =====\n");
     
     // Menu interativo:
     printf("Escolha o atributo para comparar:\n");
@@ -133,9 +132,9 @@ int main() {
     scanf("%d", &opcao);
     printf("\n-------------------------------------------------------------\n");
 
-    // Comparação de Cartas:
-    printf("### Resultado do Vencedor(a): ###\n");
-    printf("_______________________________________________________________\n");
+    // Comparação de Cartas utilizando switch:
+    printf("\n ===== RESULTADO DO VENCEDOR =====\n");
+    
     // Desenvolva a lógica de comparação entre duas cartas.
     // Utilize estruturas de decisão como if, if-else para comparar atributos como população, área, PIB, etc.
 
